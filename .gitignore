@@ -1,0 +1,7 @@
+myenvironment/
+.venv/
+__pycache__/
+*.pyc
+run.log
+metrics.json
+.DS_Store
