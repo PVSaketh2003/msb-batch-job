@@ -5,7 +5,7 @@ A fully reproducible, deterministic, and containerized MLOps batch processing jo
 
 ---
 
-## 🏗️ Project Architecture
+## Project Architecture
 
 This pipeline is built as a stateless, isolated compute unit using Docker. Instead of storing data inside the container, it utilizes a decoupled volume-mounting strategy to process data and save telemetry logs back to the host machine.
 
@@ -31,7 +31,7 @@ This pipeline is built as a stateless, isolated compute unit using Docker. Inste
 
 ---
 
-## 🛠️ Quick Start & Local Execution
+## Quick Start & Local Execution
 
 If you prefer to run the pipeline inside a local Python environment:
 
@@ -56,7 +56,7 @@ python run.py \
 
 ---
 
-## 🐳 Production Docker Deployment
+## Production Docker Deployment
 
 To bypass local setup and run this workload with complete environment isolation on any architecture (including Apple Silicon M-series chips), use the unified Docker orchestration flow.
 
@@ -86,7 +86,7 @@ docker run --rm \
 
 ---
 
-## 📊 Telemetry Output Structure
+## Telemetry Output Structure
 
 Upon a successful batch run, the following system operational signature is saved to `metrics.json`:
 
