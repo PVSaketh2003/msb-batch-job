@@ -1,5 +1,3 @@
-You can directly copy this into your `README.md`.
-
 # MSB Ingestion Batch Pipeline
 
 A fully reproducible, deterministic, and containerized MLOps batch processing pipeline designed for trading signal analytics and telemetry generation. The system ingests structured tracking data, validates schema integrity, computes rolling-window features, generates signal statistics, and exports operational metrics under strict latency constraints.
